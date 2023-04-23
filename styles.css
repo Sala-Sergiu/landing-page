@@ -18,6 +18,7 @@ html {
   --text-color-white: #f9f9f9;
   --width: 125rem;
   --margin: 0 auto;
+  --padding-bottom: 7rem;
 }
 
 /* Header */
@@ -34,31 +35,43 @@ html {
   width: var(--width);
   margin: var(--margin);
   color: var(--text-color-white);
+  padding-bottom: var(--padding-bottom);
 }
 
 .header-content-flex-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 5rem;
   width: var(--width);
   margin: var(--margin);
+  color: var(--text-color-white);
+  padding-bottom: var(--padding-bottom);
 }
 
 .header-text-flex {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 
 .header-text {
 }
 
 .btn {
-  width: 22rem;
+  width: 12rem;
+  padding: 1.4rem 0;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--secondary-color);
+  font-size: 1.8rem;
+  color: var(--text-color-white);
+  font-weight: 700;
 }
 
 .header-image {
-  width: 42rem;
-  height: 42rem;
+  width: 60rem;
+  height: 30rem;
   object-fit: cover;
 }
 
