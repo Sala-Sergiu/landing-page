@@ -38,6 +38,24 @@ html {
   padding-bottom: var(--padding-bottom);
 }
 
+.logo {
+  font-size: 4rem;
+  color: var(--text-color-white);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  list-style: none;
+  color: var(--text-color-white);
+}
+
+.link {
+}
+
 .header-content-flex-container {
   display: flex;
   justify-content: space-between;
