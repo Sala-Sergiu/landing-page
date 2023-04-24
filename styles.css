@@ -75,4 +75,140 @@ html {
   object-fit: cover;
 }
 
-/* Header */
+/* Main */
+.main {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color-grey);
+  background-color: var(--text-color-white);
+  padding-bottom: var(--padding-bottom);
+}
+
+.main-header {
+  font-size: 3rem;
+  margin-bottom: 3.5rem;
+}
+
+.card-container {
+  display: flex;
+  gap: 5rem;
+}
+
+.card-box {
+}
+
+.card-image {
+  height: 20rem;
+  width: 20rem;
+  object-fit: cover;
+  border: 5px solid var(--secondary-color);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+/* section */
+.section {
+  background-color: var(--light-grey);
+  padding: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+
+.container {
+  max-width: 80rem;
+  margin: var(--margin);
+}
+
+.quote-box {
+  margin-bottom: 3rem;
+}
+
+.quote {
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(68, 68, 68, 0.75);
+}
+
+.author-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.author {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+/* aside */
+.aside {
+  margin-bottom: 12rem;
+}
+
+.cta-container {
+  background-color: var(--secondary-color);
+  margin: var(--margin);
+  width: var(--width);
+  padding: 3rem 0;
+  border-radius: 10px;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 25rem;
+}
+
+.cta-text {
+  color: var(--text-color-white);
+}
+
+.cta-header {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.subtext {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.btn-cta {
+  width: 12rem;
+  padding: 1.2rem 0;
+  border-radius: 10px;
+  border: 2.5px solid #fff;
+  /* border-style: inset; */
+  background-color: var(--secondary-color);
+  font-size: 1.8rem;
+  color: var(--text-color-white);
+  font-weight: 700;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--primary-color);
+  color: var(--light-grey);
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  padding: 2.5rem 0;
+  font-size: 1.5rem;
+  align-content: center;
+}
